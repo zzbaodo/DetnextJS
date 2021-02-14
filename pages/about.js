@@ -1,17 +1,18 @@
 import Head from "next/head"
-import styles from "../styles/Home.module.css"
 
-export default function Home() {
+const about = () => {
   return (
     <div>
-      <h1>Next </h1>
-      <Head>
-        <title>Det Beauty</title>
+        <Head>
+        <title>Det Beauty </title>
         <meta
           name="keywords"
           content="lip blush, microblading, permanent makeup"
         />
       </Head>
+      <h1>About</h1>
     </div>
   )
 }
+
+export default about
